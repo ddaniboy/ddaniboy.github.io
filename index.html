@@ -1,27 +1,4 @@
-<style>
-    body{
-        background-color: gray;
-    }
-
-    div[type='box'] {
-        position: relative;
-        background-color: white;
-
-        width: 15%;
-        height: 90%;
-        border: 15% solid white;
-
-        position: relative;
-        animation-name: barAnimation;
-        animation-duration: 2s;
-    }
-
-    @keyframes barAnimation {
-        0%   {left:-40%;}
-        100% {left:0%;}
-    }
-
-</style>
+<link rel="stylesheet" href="style.css">
 
 <body>
  
@@ -29,6 +6,9 @@
 
     <div type="box">
         <h1 style="text-align: center;">Meunu</h1>
+
+        <button class="options" onclick="window.location.href='/pages/xss.html'">XSS</button>
+
     </div>
 
 

@@ -2,13 +2,34 @@
     body{
         background-color: gray;
     }
+
+    div[type='box'] {
+        position: relative;
+        background-color: white;
+
+        width: 15%;
+        height: 90%;
+        border: 15% solid white;
+
+        position: relative;
+        animation-name: barAnimation;
+        animation-duration: 2s;
+    }
+
+    @keyframes barAnimation {
+        0%   {left:-40%;}
+        100% {left:0%;}
+    }
+
 </style>
 
 <body>
  
     <h1 style="text-align: center;">BEM VINDO</h1>
 
-
+    <div type="box">
+        <h1 style="text-align: center;">Meunu</h1>
+    </div>
 
 
 </body>

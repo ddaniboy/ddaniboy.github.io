@@ -1,19 +1,24 @@
+#resp {
+    position: relative;
+    top: -80%;
+    
+}
 
 body{
     background-color: #26272A;
 }
 
 div[type='box'] {
-    position: relative;
+    position: absolute;
     background-color: white;
 
     width: 15%;
     height: 90%;
     border: 15% solid white;
 
-    position: relative;
+
     animation-name: barAnimation;
-    animation-duration: 2s;
+    animation-duration: 4s;
     overflow: scroll;
 }
 
@@ -21,11 +26,6 @@ div[type='box']::-webkit-scrollbar {
     display: none;
     
 }
-
-.white {
-    color: white;
-}
-
 div[type='box'] {
     -ms-overflow-style: none;  
     scrollbar-width: none;

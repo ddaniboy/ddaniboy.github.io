@@ -1,16 +1,17 @@
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/content/css/style.css">
+<script src="/content/js/request.js"></script>
+
 
 <body>
  
-    <h1 style="text-align: center;" class="white">BEM VINDO</h1>
+    <h1 style="text-align: center;">BEM VINDO</h1>
 
     <div type="box">
         <h1 style="text-align: center;">Menu</h1>
 
-        <button class="options" onclick="window.location.href='/pages/xss.html'">XSS</button>
-
-    </div>
-
+        <button class="options" onclick="callDoc('xss.html')">XSS</button>
+    </div><div id="resp"></div>
+    
 
 </body>
 

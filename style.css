@@ -21,6 +21,11 @@ div[type='box']::-webkit-scrollbar {
     display: none;
     
 }
+
+h1 {
+    color: white;
+}
+
 div[type='box'] {
     -ms-overflow-style: none;  
     scrollbar-width: none;

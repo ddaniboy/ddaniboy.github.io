@@ -34,8 +34,12 @@ p {
 }
 
 
-
 @keyframes documentAnimation {
     0%   {right:-200%;}
     100% {right:-20%;}
+}
+
+@keyframes documentDestroyAnimation {
+    0%   {right:-20%;}
+    100% {right:-200%;}
 }

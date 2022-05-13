@@ -22,7 +22,7 @@ div[type='box']::-webkit-scrollbar {
     
 }
 
-h1 {
+.white {
     color: white;
 }
 

@@ -10,9 +10,14 @@ function callDoc(page) {
     document.getElementById("resp").innerHTML = xhttp.responseText;
 
     xhttp.abort();
+    
+    document.getElementById('load').style = "top: 0%;"
+    document.getElementById('cubo').style.animation = "load 6s"
 
     document.getElementById('box').style.animation="barAnimationRetract 4s";
     document.getElementById('box').style.left = "-40%";
+    setTimeout(() => {document.getElementById('load').style = ""}, 5000);
+    
 }
 
 

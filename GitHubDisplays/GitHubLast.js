@@ -51,7 +51,10 @@ url = Repositories[pub]["html_url"];
 description = Repositories[pub]["description"];
 
 document.getElementById("title").innerHTML = document.getElementById("title").innerHTML+"\n"+title;
-document.getElementById("title").href = url;
+document.getElementById("title").onclick = function () {
+    top.location.href = url;
+}
+
 document.getElementById("updated_at").innerHTML = pushed_at
 
 if (description != null) {

@@ -51,7 +51,7 @@ url = Repositories[pub]["html_url"];
 description = Repositories[pub]["description"];
 
 document.getElementById("title").innerHTML = document.getElementById("title").innerHTML+"\n"+title;
-document.getElementById("title").onclick = function () {
+document.getElementById("href").onclick = function () {
     top.location.href = url;
 }
 
